@@ -1,0 +1,26 @@
+header{
+
+}
+nav li{
+  display: inline;
+}
+nav{
+  
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 75px;
+  background: url("Img-lib/background_ripple.jpg");
+}
+ul{
+  margin: auto;
+  color: #ffffff;
+}
+.nav-head{
+  float: left;
+}
+.nav-links{
+  float: right;
+}
