@@ -5,6 +5,7 @@ a, a:visited{
 }
 body{
   margin: 0 5%;
+  font-size: 17px;
 }
 li{
   list-style: none;
@@ -41,15 +42,17 @@ nav{
   text-align: center;
 }
 .slideUp > .navbar{
-  font-size: 0;
-  display: inherit;
+  display: flex;
   position: fixed;
   top: -100px;
   transition: top 0.5s;
 }
-.slideDown{
-  display: initial;
-  transition: 
+.slideDown > .navbar{
+  font-size: 20px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  transition: top 0.5s; 
 }
 
 /* Media Queries */
